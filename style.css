@@ -681,6 +681,11 @@ footer {
     .nav-links {
         display: none;
     }
+    .hero {
+        height: auto;
+        min-height: 100vh;
+        padding-bottom: 4rem;
+    }
     .hero-content {
         flex-direction: column;
         justify-content: flex-start;
@@ -735,5 +740,16 @@ footer {
     }
     .hero-title {
         font-size: 4rem;
+    }
+    .hero-ctas, .buy-btns {
+        flex-direction: column;
+        width: 100%;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero-ctas .btn, .buy-btns .btn, .buy-btns a {
+        width: 100%;
+        display: block;
     }
 }
