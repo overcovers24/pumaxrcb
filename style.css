@@ -759,3 +759,15 @@ footer {
     color: inherit;
     display: block;
 }
+.product-price{
+font-size:1.05rem;
+font-weight:700;
+color:#ffffff;
+margin-top:4px;
+letter-spacing:0.5px;
+}
+
+.product-card:hover .product-price{
+color:#ff0000;
+transition:color .3s ease;
+}
